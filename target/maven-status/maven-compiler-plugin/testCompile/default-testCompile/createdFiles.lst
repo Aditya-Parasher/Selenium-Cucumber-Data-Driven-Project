@@ -1,0 +1,5 @@
+stepDefinitions\homePageStep.class
+TestRunner\TestRunner.class
+stepDefinitions\contactPageStep.class
+AppHooks\AppHooks.class
+stepDefinitions\loginPageStep.class

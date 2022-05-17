@@ -1,0 +1,7 @@
+driverFactory\DriverFactory.class
+utilities\configReader.class
+pages\loginPage.class
+pages\HomePage.class
+pages\PersonalAccountPage.class
+utilities\ExcelReader.class
+pages\contactPage.class
