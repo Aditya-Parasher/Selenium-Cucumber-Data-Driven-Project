@@ -33,8 +33,7 @@ public class AppHooks {
 	{
 		String browserName = prop.getProperty("browser");
 		DriverFactory = new DriverFactory();
-		driver = DriverFactory.init_driver(browserName);
-		
+		driver = DriverFactory.init_driver(browserName);		
 	}
 	
 	@After(order=0)

@@ -3,10 +3,13 @@ package utilities;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
 import pages.contactPage;
 import pages.PersonalAccountPage;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.WebDriver.Timeouts;
 
 import driverFactory.DriverFactory;
 
@@ -36,6 +39,11 @@ public class commonMethods {
 		String email = data.get(rowNum).get("E-mail address");
 		PersonalAccountPage.fill_Details_Of_AccountHolder(socialTitle, fName, lName, email);
 		return PersonalAccountPage;
+	}
+	
+	public static Timeouts Waits()
+	{
+		return DriverFactory.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	

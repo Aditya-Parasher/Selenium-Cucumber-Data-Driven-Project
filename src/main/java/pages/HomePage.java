@@ -14,6 +14,9 @@ public class HomePage {
 	
 	private WebDriver driver;
 	
+	@FindBy(css = ".info-account")
+	private WebElement welcomeMessage;
+	
 	@FindBy(css="#center_column div ul li")
 	private List<WebElement> accountList;
 	
@@ -44,6 +47,11 @@ public class HomePage {
 		}
 		
 		return new_list;
+	}
+	
+	public String getWelcomeMessage()
+	{
+		return welcomeMessage.getText();
 	}
 	
 	public String getHeader()

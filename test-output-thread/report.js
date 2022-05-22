@@ -1,47 +1,25 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "9a0a1e63-0fbb-4678-a1c4-6ebf40fd33da",
-    "feature": "User is on Personal Account Information",
-    "scenario": "Fill personal information with different set of data",
-    "start": 1652773115673,
+    "id": "9f52af06-eecf-4ac3-9443-7e57d96250cb",
+    "feature": "User adds woman dresses into the cart",
+    "scenario": "User navigates to the Women page",
+    "start": 1653218033701,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1652773137019,
+    "end": 1653218046246,
     "className": "passed"
   },
   {
-    "id": "e38c8491-6ac8-4740-a8a8-01cc0b07df9b",
-    "feature": "User is on Personal Account Information",
-    "scenario": "Fill personal information with different set of data",
-    "start": 1652773087130,
+    "id": "ee2af3df-915d-45dd-a612-c49da48cb99a",
+    "feature": "User adds woman dresses into the cart",
+    "scenario": "User clicks on proceed to checkout button",
+    "start": 1653218046262,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1652773102687,
-    "className": "passed"
-  },
-  {
-    "id": "a982f563-799e-43a2-b718-032c2f003740",
-    "feature": "User is on Personal Account Information",
-    "scenario": "Fill personal information with different set of data",
-    "start": 1652773066325,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1652773087130,
-    "className": "passed"
-  },
-  {
-    "id": "0d3251cc-b027-43b1-9835-4354302e7362",
-    "feature": "User is on Personal Account Information",
-    "scenario": "Fill personal information with different set of data",
-    "start": 1652773102698,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1652773115673,
+    "end": 1653218063199,
     "className": "passed"
   }
 ]);
